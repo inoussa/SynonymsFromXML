@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+            <extension id="SynonymsFromXML" point="org.protege.editor.core.application.ViewComponent">
+                        <label value="Property Assertions" />
+                       <class value="agi.airbusgroup.protege.plugin.sfx.view.protegeview.SynonymFromXMLView" />
+                        <headerColor value="@org.protege.individualcolor"/>
+                        <category value="@org.protege.ontologycategory" />
+            </extension>
+</plugin>
